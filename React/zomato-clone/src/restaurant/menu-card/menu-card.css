@@ -1,0 +1,62 @@
+.dish-img{
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.dish-desc{
+    font-size: 12px;
+    color: #696B78;
+}
+
+.dish-name{
+    font-size: 15px;
+    color: #292C40;
+    font-weight:bold;
+}
+
+.dish-price{
+    font-size: 14px;
+    color: #292C40;
+}
+
+.quantity{
+    background-color: #FFFFFF;
+    height: 30%;
+    width: 80%;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.dish-quantity{
+    color: #61B246;
+    width: 100%;
+    font-size: small;
+    line-height: 100%;
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+}
+
+.remove{
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    color: #707070;
+    text-align: center;
+    line-height: 100%;
+}
+
+.add{
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    color: #61B246;
+    text-align: center;
+    line-height: 100%;
+}
+
+.veg-nonveg{
+    width: 12x;
+    height: 12px;
+}

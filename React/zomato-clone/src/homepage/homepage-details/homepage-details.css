@@ -1,0 +1,82 @@
+*{
+    font-family: Poppins;
+}
+
+.jumbotron{
+    background-image: url('backg.png');
+    object-fit: contain;
+    background-size:cover;
+    background-position: center;
+}
+
+.logo2{
+    width: 135px !important;
+    height: 135px;
+    line-height: 130px;
+    color: #eb2929;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 35px !important;
+    margin-bottom: 10px !important;
+}
+
+.gradient{
+    background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707);
+}
+
+.search-title{
+    color: #192f60;
+}
+
+.z-1{
+    z-index: 1;
+}
+
+.fs-15{
+    font-size: 15px;
+}
+
+.btn-outline-white {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.dish-image{
+    object-fit: cover !important;
+    height: 145px !important;
+}
+
+.card{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff !important;
+}
+
+.card-height{
+    height: 100% !important;
+}
+
+.card-title{
+    color: #192f60;
+}
+
+.card-text{
+    color: #8c96ab;
+    font-size: 14px;
+}
+
+.btn-outline-white {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.offset-1{
+    margin-left: 0% !important;
+}
+
+.offset-md-1{
+    margin-left: 4%;
+}
+
+.btn-login{
+    box-shadow: none !important;
+}

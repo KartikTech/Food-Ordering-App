@@ -1,0 +1,11 @@
+.heading{
+    margin: 40px 0 0 113px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    color: #192f60;
+}
+
+.form-select{
+    width: 220px !important;
+}

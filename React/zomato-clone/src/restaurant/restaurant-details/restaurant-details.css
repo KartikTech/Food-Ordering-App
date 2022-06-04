@@ -1,0 +1,49 @@
+*{
+    font-family: Poppins;
+}
+
+.restName{
+    color: #192F60;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.nav-link{
+    color: #192F60;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.overview{
+    color: #192F60;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.number{
+    color:#F67082;
+}
+
+.address{
+    word-wrap: break-word;
+    color: #636F88;
+    font-size: 16px;
+}
+
+.img{
+    height: 340px;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+}
+
+.detail{
+    font-size: 15px;
+    color: #192F60;
+    font-weight: 600;
+}
+
+.detail_info{
+    font-size: 14px;
+    color: #192F60;
+}

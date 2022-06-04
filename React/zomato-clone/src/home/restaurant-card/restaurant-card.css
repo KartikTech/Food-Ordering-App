@@ -1,0 +1,212 @@
+.dish{
+    width: 794px;
+    height: 291px;
+    margin-bottom: 34px;
+    margin-top: 23px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.dish_name{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 39px 0 0 41px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.addr_u{
+    margin: 0px 0 0 46px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.addr_l{
+    margin: 0px 0 0 46px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    white-space: nowrap; 
+    overflow:hidden;
+    width: 500px;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: #636f88;
+}
+
+.img1{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 25px;
+    margin-left: 35px;
+    background-size:cover;
+    background-position: center;
+    border-radius: 23px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.line{
+    width: 726px;
+    height: 0;
+    margin-top: 31px;
+    margin-left: 30px;
+    border: solid 1px #dedfe5;
+}
+
+.description1{
+    margin: 26px 0 0 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.description2{
+    margin: 26px 0 0 36px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.dish:hover{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.26);
+}
+
+.flex1{
+    display: flex;
+}
+
+@media only screen and (min-width:200px) and (max-width:500px){
+.dish{
+    width: auto;
+    height: 224px;
+    margin-bottom: 19px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.dish_name{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 33px 0 0 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.addr_u{
+    margin: 0px 0 0 19px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.addr_l{
+    margin: 0px 0 0 17px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    white-space: nowrap; 
+    overflow:hidden;
+    width: 100px;
+    text-overflow: ellipsis;
+    text-align: left;
+    color: #636f88;
+}
+
+.img1{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin-top: 12px;
+    margin-left: 25px;
+    background-size:cover;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.line{
+    width: 90%;
+    height: 0;
+    margin-top: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #dedfe5;
+}
+
+.description1{
+    margin: 20px 0 0 25px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.description2{
+    margin: 20px 0 0 25px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.flex1{
+    margin-bottom: -10px;  
+}
+
+}

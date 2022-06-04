@@ -1,0 +1,156 @@
+.filter{
+    width: 270px;
+    height: auto;
+    margin-top: 23px;
+    margin-left: 113px;
+    margin-bottom: 96px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.visible1{
+    display: none;
+}
+
+.filter_span{
+    width: 55px;
+    height: 25px;
+    margin: 23px 154px 18px 26px;
+    padding-top: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.sort_span{
+    width: 55px;
+    height: 25px;
+    margin: 15px 154px 25px 26px;
+    padding-top: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.filter_type{
+    font-family: Poppins;
+    font-size: 14px;
+    margin: 11px 0px 15px 27px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.location{
+    margin: -4px 0px 0px 27px;
+    padding-left: 10px;
+    width: 208px;
+    height: 35px;
+    color: #8c96ab;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+}
+
+.m-22{
+    margin-top: 22px;
+}
+
+.k-checkbox{
+    width: 18px;
+    height: 18px;
+    margin: 0px 11px 15px 27px;
+    border-radius: 1.5px;
+    background: #05193b;
+    border: solid 1.5px #3a5075;
+}
+
+.chk{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+.k-radio{
+    width: 18px;
+    height: 18px;
+    margin: 0px 11px 15px 27px;
+    border: solid 1.5px #3a5075;
+}
+
+.rad{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+@media only screen and (min-width:200px) and (max-width:500px){
+
+    .visible1{
+        display: block;
+    }
+
+    .align{
+        width: 82%;
+        height: 54px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 18px;
+        -webkit-backdrop-filter: blur(30px);
+        backdrop-filter: blur(30px);
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+        border: solid 1px #e0e0e0;
+    }
+    
+    .filter{
+        display: none;
+        width: 260px;
+        height: 682px;
+        margin-left: 113px;
+        margin-bottom: 96px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #fff;
+    }
+
+    .m-filter{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        border:none;
+        color: #192f60;
+        width: 99%;
+        height: 53px;
+        padding: 10px;
+    }
+}
